@@ -5,7 +5,7 @@ import numpy as np
 CITY_DATA = { 1: ['chicago', 'chicago.csv'],
                 2: ['new york city', 'new_york_city.csv'],
                 3: ['washington','washington.csv'] } 
-
+# this function is implemented to interpret user raw input on city, month and day 
 def get_filters_updated():
     print('\nHello! Let\'s explore some US bikeshare data. Which city data would you be interested.\n\n Enter your choice of city, Chicago, New York City, Washington.\n\n')
         # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
