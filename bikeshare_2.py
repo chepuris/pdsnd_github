@@ -9,7 +9,7 @@ CITY_DATA = { 1: ['chicago', 'chicago.csv'],
 def get_filters_updated():
     print('\nHello! Let\'s explore some US bikeshare data. Which city data would you be interested.\n\n Enter your choice of city, Chicago, New York City, Washington.\n\n')
         # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    #city_list = ['chicago', 'washington', 'new york city']
+    
     city_dict = { 'chicago':'chicago.csv',
                 'new york city':'new_york_city.csv',
                 'washington':'washington.csv' }
@@ -296,12 +296,7 @@ def user_stats(df, city):
 def main():
     while True:
         city, fileName, month, day = get_filters_updated()
-        #city, month, day = 'chicago', 'June', 'Friday'
         
-        print(city)
-        print(fileName)
-        print(month)
-        print(day)
         STATS = {1:'Time Stats', 2:'Station Stats', 3:'Trip Duration Stats', 4:'User Stats', 5:'Display first few rows of raw data', 6:'Restart Program', 7:'Exit Program'}
         
         df = load_data(city, fileName, month, day)
