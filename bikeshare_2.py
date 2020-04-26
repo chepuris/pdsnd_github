@@ -296,12 +296,7 @@ def user_stats(df, city):
 def main():
     while True:
         city, fileName, month, day = get_filters_updated()
-        #city, month, day = 'chicago', 'June', 'Friday'
         
-        print(city)
-        print(fileName)
-        print(month)
-        print(day)
         STATS = {1:'Time Stats', 2:'Station Stats', 3:'Trip Duration Stats', 4:'User Stats', 5:'Display first few rows of raw data', 6:'Restart Program', 7:'Exit Program'}
         
         df = load_data(city, fileName, month, day)
