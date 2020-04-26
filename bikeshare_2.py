@@ -50,7 +50,7 @@ def get_filters_updated():
         finally:
             pass
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for data (all, sunday, monday, tuesday, wednesday, thursday, friday, saturday)
     print('-'*40)
 
     print('For the selected city and month of year filter would you be interested to analyze data by day of the week. Enter 0 to apply no day filter.')
