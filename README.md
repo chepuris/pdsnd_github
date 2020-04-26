@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Project is created as part of Udacity - Programming for Data Science training on April 26th 
 
 ### Project Title
-Replace the Project Title
+Bike Share Project 
 
 ### Description
-Describe what your project is about and what it does
+In this project, comparison on the system uusage between three large cities: Chicago, New York City, and Washington, DC is performed using the data provided 
 
 ### Files used
-Include the files used
+Refer to file bikeshare_2.py 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://www.motivateco.com/
 
